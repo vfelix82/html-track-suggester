@@ -19,6 +19,10 @@ p {
   text-align: center;
 }
 
-/* .css, .c-sharp, .java, .php, .ruby {
+.css, .c-sharp, .java, .php, .ruby {
   display: none;
-} */
+}
+
+.question-margin {
+  margin-top: 15px;
+  margin-bottom: 15px;

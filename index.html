@@ -4,7 +4,7 @@
       <title>Track Suggester</title>
       <link href="css/bootstrap.css" rel="stylesheet" text="text/css">
       <link href="css/styles.css" rel="stylesheet" type="text/css">
-      <script src="js/jquery-1.12.0.js"></script>
+      <script src="js/jquery-3.2.1.js"></script>
       <script src="js/scripts.js"></script>
       <nav class="navbar navbar-inverse">
         <div class="container-fluid">
@@ -18,48 +18,50 @@
         <h1>Epicodus</h1>
         <h2>Need help deciding which course to take?</h2>
       </div>
+      <form class="form">
       <div class="container">
         <div class="form-group">
       <h3><label>Answer these questions to find out which is best for you.</label></h3>
-      <label>1.</label>
+      <label class="question-margin">1. "I like to work on the font-end of the development"</label>
       <select class="form-control" id="question1">
         <option value="3">Agree</option>
         <option value="2">Neutral</option>
         <option value="1">Disagree</option>
       </select>
-        <label>2.</label>
+        <label class="question-margin">2. "I like to work on the back-end of the development"</label>
       <select class="form-control" id="question2">
         <option value="3">Agree</option>
         <option value="2">Neutral</option>
         <option value="1">Disagree</option>
       </select>
-      <label>3.</label>
+      <label class="question-margin">3. "I would like to work for a big company"</label>
     <select class="form-control" id="question3">
       <option value="3">Agree</option>
       <option value="2">Neutral</option>
       <option value="1">Disagree</option>
     </select>
-      <label>4.</label>
+      <label class="question-margin">4. "I would like to work for a start-up company"</label>
     <select class="form-control" id="question4">
       <option value="3">Agree</option>
       <option value="2">Neutral</option>
       <option value="1">Disagree</option>
     </select>
+  </form>
   </div>
     <br>
     <br>
       <div class="form-group">
-        <label for="name">Enter your name</label>
+        <label>Enter your name</label>
         <input id="userName" class="form-control" type="text">
       </div>
       <div class="form-group">
-          <label for="email">Enter your email</label>
+          <label>Enter your email</label>
           <input id="userEmail" class="form-control" type="text">
           <br>
           <button type="submit" class="btn btn-dark btn-lg">Submit</button>
         </div>
       </div>
-      <div class="result-container">
+      <div class="answer-result">
         <div class="container">
           <div class="java">
             <div class="col-lg-6">
