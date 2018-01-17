@@ -17,6 +17,7 @@
         <div class="jumbotron">
           <h1>Epicodus</h1>
           <h2>Need help deciding which course to take?</h2>
+          <h5><span class="userName"></span>You should try these courses</h5>
         </div>
         <form class="form">
           <div class="container">
@@ -42,6 +43,12 @@
               </select>
               <label class="question-margin">4. "I would like to work for a start-up company"</label>
               <select class="form-control" id="question4">
+                <option value="3">Agree</option>
+                <option value="2">Neutral</option>
+                <option value="1">Disagree</option>
+              </select>
+              <label class="question-margin">5. "I would like to make lots of money!"</label>
+              <select class="form-control" id="question5">
                 <option value="3">Agree</option>
                 <option value="2">Neutral</option>
                 <option value="1">Disagree</option>
@@ -135,5 +142,8 @@
             </div>
           </div>
         </div>
+        <form class="form-reload">
+        <button type="submit" class="btn btn-dark btn-lg">Reload</button>
+        </form>
     </body>
   </html>
