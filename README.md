@@ -1,40 +1,41 @@
-# _Track Suggester_
+# Track Suggester
 
-#### _Track Suggester, 1.0 1/12/2018_
+#### Track Suggester, 1.0 1/12/2018
 
-#### By _**Victor Felix**_
+#### By **Victor Felix**
 
 ## Description
 
-_Html site that suggest which coding course to take after answering a few questions_
+Html site that suggest which coding course to take after answering a few questions
 
 ## Setup/Installation Requirements
 
 * Direct link https://vfelix82.github.io/track-suggester/
-* _Clone from github_
-* _Open with html_
+* Clone from github
+* Open with html
 
 ## Known Bugs
 
-_JS is not functioning_
-
 ## Support and contact details
 
-_If you would like to get a hold me, please email me at vfelix82@gmail.com_
+If you would like to get a hold me, please email me at vfelix82@gmail.com
 
-_Please check https://github.com/vfelix82?tab=repositories to see more of my work._
+Please check https://github.com/vfelix82?tab=repositories to see more of my work.
 
-_https://github.com/_
+https://github.com/
 
 ## Technologies Used
 
-_Html_
-_CSS_
-_BOOTSTRAP_
-_Java_
+Html
+
+CSS
+
+BOOTSTRAP
+
+Java
 
 ### License
 
-_MIT lincense_
+MIT lincense
 
-Copyright (c) 2016 **_Victor Felix_**
+Copyright (c) 2016 **Victor Felix**
